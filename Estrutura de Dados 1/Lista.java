@@ -33,13 +33,13 @@ public class Lista {
     // Cria uma Lista vazia
 
     public Lista() {
-        primeiro = new Celula ( );
+        primeiro = new Celula();
         ultimo = primeiro;
         primeiro.prox = null;
     }
 
     public void imprimirLista(){
-        Celula atual = primeiro;
+        Celula atual = primeiro.prox;
         do{
             System.out.println(atual.item);
             atual = atual.prox;
@@ -56,4 +56,23 @@ public class Lista {
             ultimo = novo;
         }
     }
+
+    public void insereFinal(Object x) {
+        ultimo.prox = new Celula();
+        ultimo = ultimo.prox;
+        ultimo.item = x;
+        ultimo.prox = null;
+    }
+
+    public void vetorParaLista(){
+        int vetor[] = {1,2,3,4,5,6,7,8,9,10};
+        for(int i = 0; i < vetor.length; i++){
+            ultimo.prox = new Celula();
+            ultimo = ultimo.prox;
+            ultimo.item = vetor[i];
+        }
+        ultimo.prox = null;
+    }
+
+    
 }
