@@ -1,0 +1,258 @@
+<mxfile host="Electron" modified="2024-03-13T12:40:19.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="RCdIqv3LjQbuNFxjjxiy" version="22.1.11" type="device">
+  <diagram name="Página-1" id="dSWE0CJseoSbrfJAIcjD">
+    <mxGraphModel dx="1114" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="69.5" as="sourcePoint" />
+            <mxPoint x="330" y="69.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="69.5" as="sourcePoint" />
+            <mxPoint x="200" y="69.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="69.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-1" value="Departamento&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-2" value="Funcionário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-3" value="Lota" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-15" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-16" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="169.5" as="sourcePoint" />
+            <mxPoint x="330" y="169.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="169.5" as="sourcePoint" />
+            <mxPoint x="200" y="169.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="169.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-19" value="Apartamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-21" value="Pessoas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-22" value="Mora" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-23" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-24" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="269.5" as="sourcePoint" />
+            <mxPoint x="330" y="269.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="269.5" as="sourcePoint" />
+            <mxPoint x="200" y="269.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="269.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-27" value="Departamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-29" value="Escritório" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-30" value="Possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-31" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-32" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="369.5" as="sourcePoint" />
+            <mxPoint x="330" y="369.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="369.5" as="sourcePoint" />
+            <mxPoint x="200" y="369.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="369.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-35" value="Condomínio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-36" value="Ruas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-37" value="Localizam-se" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-38" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-39" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="469.5" as="sourcePoint" />
+            <mxPoint x="330" y="469.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="469.5" as="sourcePoint" />
+            <mxPoint x="200" y="469.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="469.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-43" value="Ruas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-44" value="Cidades" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-45" value="Estão" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-46" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-47" value="(1:1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="569.5" as="sourcePoint" />
+            <mxPoint x="330" y="569.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="569.5" as="sourcePoint" />
+            <mxPoint x="200" y="569.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="569.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-50" value="Funcionários" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-51" value="Projetos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-52" value="Participam" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-53" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-54" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-55" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="669.5" as="sourcePoint" />
+            <mxPoint x="330" y="669.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="669.5" as="sourcePoint" />
+            <mxPoint x="200" y="669.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="669.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-57" value="Materiais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-58" value="Fornecedores" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-59" value="Fornecidos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-60" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-61" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="759.5" as="sourcePoint" />
+            <mxPoint x="330" y="759.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="759.5" as="sourcePoint" />
+            <mxPoint x="200" y="759.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="759.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-64" value="Alunos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-65" value="Disciplinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-66" value="Cursam" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-67" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TY1GU_MBY2lPWLuaCKOr-68" value="(1:n)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="730" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
