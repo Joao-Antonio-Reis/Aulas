@@ -88,6 +88,15 @@ public class Lista {
         return cont;
     }
 
+    public void verificarVazia() {
+        Nodo atual = lista.primeiro.prox
+        if(atual == null){
+            return true;
+        }else{
+            false;
+        }
+    }
+
 // Exercicio 1
 
     public void vetorParaLista(){

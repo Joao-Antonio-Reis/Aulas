@@ -7,7 +7,5 @@ public class Listateste {
         lista1.insereFinal(3);
         lista1.insereFinal(4);
         lista1.contarLista(lista1);
-        
-
     }
 }
