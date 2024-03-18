@@ -1,7 +1,10 @@
+package Trabalho1_ED2;
 import java.util.Scanner;
 public class TesteListaAluno {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        ListaAluno listaPrincipal = new ListaAluno();
+        
         int menuEscolha = 0 ;
         while (true != false) {
             System.out.println("==================================================");
@@ -17,11 +20,16 @@ public class TesteListaAluno {
             menuEscolha = sc.nextInt();
             switch (menuEscolha) {
                 case 1:
-                    
+                    System.out.println("Digite a matrícula: ");
+                    int matricula = sc.nextInt();
+                    System.out.println("Digite a nota: ");
+                    double nota = sc.nextDouble();
+                    Aluno aluno = new Aluno(matricula, nota);
+                    listaPrincipal.insereOrdenado(aluno);
                     break;
 
                 case 2:
-
+                    listaPrincipal.imprimeLista();
                     break;
                 
                 case 3:
@@ -29,7 +37,7 @@ public class TesteListaAluno {
                     break;
 
                 case 4:
-
+                    listaPrincipal.contarLista(listaPrincipal);
                     break;
 
                 case 5:
