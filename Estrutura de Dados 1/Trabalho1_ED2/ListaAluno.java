@@ -1,4 +1,4 @@
-package Trabalho1_ED2;
+
 
 public class ListaAluno {
     
@@ -92,20 +92,31 @@ public class ListaAluno {
         }
     }
 
-    public void insereOrdenado(Aluno x) {
-        Aluno novoAluno = x;
+    public void insereOrdenado(Aluno novoAluno) {
+        Nodo novo = new Nodo();
+        novo.aluno = novoAluno;
+    
         Nodo atual = primeiro;
-        while (atual.prox!=null && atual.aluno.getNota() < novoAluno.getNota()){
+        Nodo anterior = null;
+    
+        // Encontrar o local correto para inserir o novo aluno, mantendo a lista ordenada por nota
+        while (atual != null && (atual.aluno == null || atual.aluno.getNota() > novoAluno.getNota())) {
+            anterior = atual;
             atual = atual.prox;
-            if(atual == null){
-            insereFinal(novoAluno);
-            }
-            else if(atual.equals(novoAluno)){
-                insereMeio(novoAluno);
-            }
-            else{
-                insereInicio(novoAluno);
-            }
+        }
+    
+        // Se o novo aluno deve ser inserido no início da lista
+        if (anterior == null) {
+            novo.prox = primeiro;
+            primeiro = novo;
+        } else {
+            novo.prox = atual;
+            anterior.prox = novo;
+        }
+    
+        // Atualizar o ponteiro 'ultimo' se o novo aluno for inserido no final da lista
+        if (atual == null) {
+            ultimo = novo;
         }
     }
 
