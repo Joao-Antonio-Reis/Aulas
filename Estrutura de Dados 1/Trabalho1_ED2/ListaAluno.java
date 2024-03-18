@@ -1,3 +1,5 @@
+package Trabalho1_ED2;
+
 public class ListaAluno {
     
     private static class Nodo {
@@ -5,32 +7,60 @@ public class ListaAluno {
         Nodo prox;
     }
 
+    private Nodo primeiro;
+    private Nodo ultimo;
+
     public ListaAluno() {
         primeiro = new Nodo();
         ultimo = primeiro;
         primeiro.prox = null;
     }
 
-    private Nodo primeiro;
-    private Nodo ultimo;
-    
     public Nodo getPrimeiro() {
         return primeiro;
     }
+
+
     public void setPrimeiro(Nodo primeiro) {
         this.primeiro = primeiro;
     }
+
+
     public Nodo getUltimo() {
         return ultimo;
     }
+
+
     public void setUltimo(Nodo ultimo) {
         this.ultimo = ultimo;
     }
 
+    public boolean vazia () {
+        return (primeiro == ultimo);
+    }
+
+    public void imprimir() {
+        Nodo aux = primeiro.prox;
+        while (aux != null ) {
+        System.out.println("Matrícula: " + aux.aluno.getMatricula());
+        System.out.println("Nota: " + aux.aluno.getNota());
+        aux = aux.prox;
+        }
+    }
+
+    public int contarLista (ListaAluno lista) {
+        int cont = 0;
+        Nodo atual = lista.primeiro.prox;
+        while (atual != null) {
+            cont = cont + 1;
+            atual = atual.prox;
+        }
+        System.out.println("O tamanho da lista é: "+ cont);
+        return cont;
+    }
+
     public void insereFinal(Aluno x) {
-        // aloca espaco de memoria e coloca na lista
         ultimo.prox = new Nodo();
-        // ultimo referencia o novo ultimo
         ultimo = ultimo.prox;
         ultimo.aluno = x;
         ultimo.prox = null;
@@ -62,19 +92,44 @@ public class ListaAluno {
         }
     }
 
-    public int contarLista (ListaAluno lista) {
-        int cont = 0;
-        Nodo atual = lista.primeiro.prox;
-        while (atual != null) {
-            cont = cont + 1;
+    public void insereOrdenado(Aluno x) {
+        Aluno novoAluno = x;
+        Nodo atual = primeiro;
+        while (atual.prox!=null && atual.aluno.getNota() < novoAluno.getNota()){
             atual = atual.prox;
+            if(atual == null){
+            insereFinal(novoAluno);
+            }
+            else if(atual.equals(novoAluno)){
+                insereMeio(novoAluno);
+            }
+            else{
+                insereInicio(novoAluno);
+            }
         }
-        System.out.println(cont);
-        return cont;
     }
 
-    public void insercaoOrdem(ListaAluno lista) {
-        
+    public void imprimeLista() {
+        Nodo atual = primeiro.prox;
+        int i = 1;
+        while (atual != null) {
+            System.out.println("Aluno " + i + ":");
+            System.out.println("Nota: " + atual.aluno.getNota());
+            System.out.println("Matrícula: " + atual.aluno.getMatricula());
+            System.out.println("\n");
+            atual = atual.prox;
+            i++;
+        }
     }
-    
+
+    public void cadastroAluno(Aluno x) throws Exception {
+        Nodo aux = primeiro;
+        Aluno aluno = x;
+        if (vazia())
+            throw new Exception("Erro: Lista Vazia");
+        while(aux.prox != null && !aux.prox.equals(aluno.nota))
+            aux = aux.prox;
+        if(aux.prox == null){
+        }
+    }
 }
